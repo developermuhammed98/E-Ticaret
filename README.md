@@ -1,6 +1,9 @@
-📘 Proje Dökümantasyonu
-🔹 Proje Adı: React.js ile Geliştirilmiş E-Ticaret Yönetim Paneli
+📘 Proje Dökümantasyonu     
+
+🔹 Proje Adı: React.js ile Geliştirilmiş E-Ticaret Yönetim Paneli   
+
 🔍 Proje Açıklaması:
+
 Bu projede, React.js ve Metronic şablonu kullanılarak modern bir e-ticaret yönetim paneli geliştirilmiştir. Kullanıcılar, API aracılığıyla doğrulanan bir giriş sistemi ile sisteme giriş yapabilmektedir. Panelde müşteri, ürün, sipariş ve kargo yönetim sistemleri bulunmaktadır. Admin kullanıcılar bu panel üzerinden ürünleri ve siparişleri kolaylıkla yönetebilmektedir.
 
 Ürün, müşteri, sipariş ve kargo işlemleri için hem ekleme hem de listeleme ekranları tasarlanmış ve uygulanmıştır. Tüm bu veri ekranlarında kullanılan bilgiler, Mock API servislerinden alınarak ilgili bileşenlerde başarıyla gösterilmiş ve yönetilmiştir.
