@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+📘 Proje Dökümantasyonu
+🔹 Proje Adı: React.js ile Geliştirilmiş E-Ticaret Yönetim Paneli
+🔍 Proje Açıklaması:
+Bu projede, React.js ve Metronic şablonu kullanılarak modern bir e-ticaret yönetim paneli geliştirilmiştir. Kullanıcılar, API aracılığıyla doğrulanan bir giriş sistemi ile sisteme giriş yapabilmektedir. Panelde müşteri, ürün, sipariş ve kargo yönetim sistemleri bulunmaktadır. Admin kullanıcılar bu panel üzerinden ürünleri ve siparişleri kolaylıkla yönetebilmektedir.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ürün, müşteri, sipariş ve kargo işlemleri için hem ekleme hem de listeleme ekranları tasarlanmış ve uygulanmıştır. Tüm bu veri ekranlarında kullanılan bilgiler, Mock API servislerinden alınarak ilgili bileşenlerde başarıyla gösterilmiş ve yönetilmiştir.
 
-## Available Scripts
+Dropdown menüler ve tablo verileri dummy (yalancı) verilerle, özellikle Apiary platformu üzerinden desteklenerek entegre edilmiş; bu sayede dinamik ve kullanıcı dostu bir arayüz oluşturulmuştur. Projede ayrıca kullanıcı arama, kitap ve kullanıcı listeleme gibi ek işlevler de başarıyla uygulanmıştır.
 
-In the project directory, you can run:
+🛠️ Kullanılan Teknolojiler:
+React.js
 
-### `npm start`
+React Hook Form
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Apiary (Dummy API verileri için)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Metronic Şablonu
 
-### `npm test`
+Mock API Servisleri
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Öne Çıkan Özellikler:
+Kullanıcı kayıt ve giriş sistemi (API üzerinden doğrulama)
 
-### `npm run build`
+Admin paneli ile ürün ve sipariş yönetimi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Müşteri, ürün, sipariş ve kargo bilgilerinin eklenmesi ve listelenmesi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Dropdown alanlarıyla kolay seçim imkanı
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tablo yapıları ile verilerin düzenli görüntülenmesi
 
-### `npm run eject`
+Apiary üzerinden sağlanan dummy veriler ile dinamik test ortamı
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Mock API’lerle gerçek API senaryolarına yakın deneyim
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🗃️ Veri Yönetimi:
+Veriler, test ve geliştirme süreçleri boyunca Apiary ve Mock API servisleri üzerinden sağlanan dummy veri setleri ile yönetilmektedir. Bu sayede sistem, test aşamasında sorunsuz şekilde çalışmakta ve arayüz işlevleri güvenle denetlenebilmektedir. Yönetilen veri türleri şunlardır:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Müşteri kayıtları
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ürün envanteri
 
-## Learn More
+Sipariş listesi
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kargo takip bilgileri
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎯 Öğrenilenler:
+Bu proje, ilk gerçek React.js projem olmasına rağmen, React’in bileşen yapısı, veri akışı ve hook kullanımı gibi birçok özelliğini öğrenme ve uygulama fırsatı sundu.
+React Hook Form ile form doğrulama ve form yönetimi konularında deneyim kazandım.
+Ayrıca, SQL üzerinde temel seviyede çalışarak veri sorgulama, filtreleme ve tablo ilişkileri hakkında başlangıç düzeyinde bilgi sahibi oldum.
+Apiary ve Mock API servisleri kullanarak sahte verilerle çalışmanın, gerçek dünya API entegrasyonlarına hazırlık açısından sağladığı avantajları deneyimledim.
+Ayrıca profesyonel arayüz tasarımı konusunda Metronic şablonunun sağladığı imkanlardan faydalanarak gelişmiş bir kullanıcı deneyimi oluşturdum.
