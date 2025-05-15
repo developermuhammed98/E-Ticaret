@@ -56,10 +56,9 @@ Ayrıca profesyonel arayüz tasarımı konusunda Metronic şablonunun sağladı�
 
 🎯Contact 
 
-Jr.Developer: Muhammed Bülbül
+ Muhammed Bülbül
 
-E-mail: developer.muhammed98@gmail.com
+E-mail: developer.muhammed98@gmail.com  LinkedIn: www.linkedin.com/in/developermuhammed98
 
-LinkedIn: www.linkedin.com/in/developermuhammed98
 
 
