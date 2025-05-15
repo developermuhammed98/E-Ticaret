@@ -53,3 +53,13 @@ React Hook Form ile form doğrulama ve form yönetimi konularında deneyim kazan
 Ayrıca, SQL üzerinde temel seviyede çalışarak veri sorgulama, filtreleme ve tablo ilişkileri hakkında başlangıç düzeyinde bilgi sahibi oldum.
 Apiary ve Mock API servisleri kullanarak sahte verilerle çalışmanın, gerçek dünya API entegrasyonlarına hazırlık açısından sağladığı avantajları deneyimledim.
 Ayrıca profesyonel arayüz tasarımı konusunda Metronic şablonunun sağladığı imkanlardan faydalanarak gelişmiş bir kullanıcı deneyimi oluşturdum.
+
+🎯Contact 
+
+Jr.Developer: Muhammed Bülbül
+
+E-mail: developer.muhammed98@gmail.com
+
+LinkedIn: www.linkedin.com/in/developermuhammed98
+
+
